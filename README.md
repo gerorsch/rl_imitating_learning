@@ -185,7 +185,7 @@ algorithm PPO:
 
 A figura abaixo mostra como esses algoritmos se encaixam no fluxo de treinamento definido no *script*:
 
-            ┌───────────────────────────┐
+            ┌──────────────────────────┐
             │      Demonstrações       │
             │   (trajetórias expert)   │
             └────────────┬─────────────┘
@@ -195,18 +195,18 @@ A figura abaixo mostra como esses algoritmos se encaixam no fluxo de treinamento
             ┌───────────────────────────┐
             │     Behavioral Cloning    │
             │  (Treina Política Inicial)│
-            └────────────┬─────────────┘
+            └────────────┬──────────────┘
                          │
               [Se gail_timesteps > 0]
                          ▼
-            ┌───────────────────────────┐
+            ┌──────────────────────────┐
             │           GAIL           │
             │Discriminator vs. Gerador │
             └────────────┬─────────────┘
                          │
               [Se rl_timesteps > 0]
                          ▼
-            ┌───────────────────────────┐
+            ┌──────────────────────────┐
             │           PPO            │
             │  (RL puro no ambiente)   │
             └────────────┬─────────────┘
