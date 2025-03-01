@@ -86,6 +86,10 @@ Nesta etapa, você controla o robô manualmente dentro do ambiente Godot, regist
 
 ### Behavioral Cloning (BC)
 
+O conceito central do Imitation Learning é aproveitar a experiência de um especialista — por exemplo, um humano — para auxiliar o agente a aprender de maneira mais eficiente.
+
+Behavioral Cloning é um dos algoritmos de Imitation Learning. Ao coletarmos a interação entre o especialista e o ambiente, obtemos a trajetória τ, composta por s (estado) e a (ação). O objetivo é atualizar a rede de forma a maximizar a probabilidade dessas trajetórias.
+
 **Contexto de uso no script**  
 - O BC é opcional e executado antes de GAIL e do RL puro.  
 - No código, usamos o objeto `bc.BC(...)` da biblioteca *imitation*, fornecendo:
@@ -112,6 +116,8 @@ algorithm Behavioral Cloning:
     return πθ
 ```
 ### GAIL (Generative Adversarial Imitation Learning)
+
+O Generative Adversarial Imitation Learning (GAIL) é uma arquitetura de redes neurais profundas voltada ao Imitation Learning, em que um agente (“learner”) aprende uma habilidade observando o comportamento de outro agente (“expert”). Ela se baseia na popular arquitetura de Generative Adversarial Networks (GANs), na qual a rede é dividida em dois blocos funcionais principais que participam de um jogo adversarial: o “discriminator” (ou “critic”) aprende a distinguir exemplos reais de treinamento daqueles criados pela própria rede, enquanto o módulo “generator” (ou “actor”) aprende a produzir exemplos falsos, porém convincentes, com o objetivo de enganar o discriminador. Esses exemplos falsos são justamente o resultado útil de uma GAN.
 
 **Contexto de uso no script**  
 O GAIL é inicializado pelo objeto `GAIL(...)`, que recebe:  
