@@ -267,5 +267,3 @@ Para criar os exemplos do especialista, foram gerados 24 episódios completando 
 
 Se você ficou interessado, vale a pena conferir a [Bonus Unit 5 do Curso de Deep RL da Hugging Face](https://huggingface.co/learn/deep-rl-course/unitbonus5/introduction) e se aprofundar na documentação do [Godot RL Agents](https://github.com/BitBasilisk/godot_rl_agents). Você descobrirá todo um mundo de possibilidades para criar soluções de inteligência artificial, seja em jogos, robótica ou aplicações de simulação.
 
-Com essa base, você já tem uma visão geral do *Imitation Learning* com Godot. Agora é hora de explorar, colocar a mão na massa e dar seus primeiros passos nessa combinação poderosa de aprendizado de máquina e *game development*. **Boas criações!**
-
