@@ -263,7 +263,7 @@ Para criar os exemplos do especialista, foram gerados 24 episódios completando 
 
 ## Demonstração em vídeo
 
-[![Veja a demonstração](https://img.youtube.com/vi/abcdef12345/0.jpg)](https://www.youtube.com/watch?v=abcdef12345)
+[![Veja a demonstração](https://img.youtube.com/vi/BYtNCuhPn44/0.jpg)](https://www.youtube.com/watch?v=BYtNCuhPn44)
 
 Se você ficou interessado, vale a pena conferir a [Bonus Unit 5 do Curso de Deep RL da Hugging Face](https://huggingface.co/learn/deep-rl-course/unitbonus5/introduction) e se aprofundar na documentação do [Godot RL Agents](https://github.com/BitBasilisk/godot_rl_agents). Você descobrirá todo um mundo de possibilidades para criar soluções de inteligência artificial, seja em jogos, robótica ou aplicações de simulação.
 
