@@ -1,4 +1,4 @@
-## Imitation Learning com Godot RL Agents: uma abordagem prática e pedagógica
+## Imitation Learning com Godot RL Agents
 
 Imagine ensinar um robô a executar uma tarefa sem precisar programar todas as regras explicitamente. Em vez disso, ele aprende a partir de demonstrações humanas, observando como realizamos a tarefa e, então, reproduzindo o comportamento de forma autônoma. Esse é o objetivo do *Imitation Learning* (ou Aprendizado por Imitação). Na **Bonus Unit 5** do [curso de Deep Reinforcement Learning da Hugging Face](https://huggingface.co/learn/deep-rl-course/unitbonus5/introduction), é demonstrado como aplicar essa técnica de forma simples e lúdica usando o *Godot RL Agents*.
 
@@ -258,6 +258,12 @@ Na prática, você:
 5. (Opcional) Complementa o treinamento com **RL puro** via PPO, caso deseje ir além do que foi demonstrado.
 
 Assim, o caminho para criar um agente personalizado, capaz de aprender comportamentos específicos, torna-se muito mais simples. Esse método é especialmente útil em cenários nos quais a definição de uma função de recompensa seja complexa ou em tarefas que requerem uma “intuição” mais humana.
+
+Para criar os exemplos do especialista, foram gerados 24 episódios completando todo o circuito, sem falhas. Nos momentos em que era necessário aguardar, fizemos o robô ficar girando e ele aprendeu também este comportamento, embora não realize na mesma velocidade realizada pelo expert. 
+
+## Demonstração em vídeo
+
+[![Veja a demonstração](https://img.youtube.com/vi/abcdef12345/0.jpg)](https://www.youtube.com/watch?v=abcdef12345)
 
 Se você ficou interessado, vale a pena conferir a [Bonus Unit 5 do Curso de Deep RL da Hugging Face](https://huggingface.co/learn/deep-rl-course/unitbonus5/introduction) e se aprofundar na documentação do [Godot RL Agents](https://github.com/BitBasilisk/godot_rl_agents). Você descobrirá todo um mundo de possibilidades para criar soluções de inteligência artificial, seja em jogos, robótica ou aplicações de simulação.
 
